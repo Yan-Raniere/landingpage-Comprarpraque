@@ -1,0 +1,348 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url('imagem/banner.png') center center no-repeat fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;margin: 0px;
+    }
+.wrapper{
+    max-width: 1170px;
+    margin:auto;
+}
+p{
+    margin: 18px 0px;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/*first-container*/
+
+
+.first-container{
+    margin: 0px 0px 20px;
+    background-color: rgb(186 179 179 / 50%);
+}
+h1{
+    font-size: 6.4rem;
+    text-align:center;
+    padding: 50px;
+    font-family:"Fredericka the Great";
+    color: #073f38;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+
+/* secound-container*/
+
+
+.secound-container{
+    width: 100%;
+    margin: 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size:3rem
+}
+.left-side{
+    width: 44.5%;
+    background-color: rgb(186 179 179 / 50%);
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side{
+    width: 54.5%;
+    background-color: rgb(186 179 179 / 50%);
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* coments-area */
+
+
+.tittle-list{
+    background-color: rgb(186 179 179 / 50%);
+    width:100%;
+    text-align:center;
+    font-size:3.5rem;
+    font-family:"Fredericka the Great";
+    font-weight:600;
+    color: #073f38;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+}
+.container-mid li{
+    width: 31%;
+    list-style: none;
+    background-color: rgb(186 179 179 / 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.0rem;
+    padding: 0.65vw;
+}
+.container-mid li p{
+    margin: 1.0rem auto;
+    width: 90%;
+}
+.container-mid ul{
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    color: white;
+    font-family: "Crimson Pro";
+    letter-spacing: 0.2rem;
+    line-height: 1.9rem;
+}
+.container-mid .img{
+    width: 7.0rem;
+    height: 7.0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1000px;
+    border: 0.5rem solid #504242;
+    background-color: #70a3a5;
+}
+.img-wrapper{
+    width:90%;
+    margin:0px auto;
+    display: flex;
+}
+h6{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3.0rem;
+}
+figcaption{
+    margin-left:1.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-mid li figcaption p{
+    margin:0px
+}
+
+
+/* third-container */
+
+
+.third-container{
+    background-color: rgb(186 179 179 / 50%);
+    width: 100%;
+    margin: 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    font-size:3.5rem;
+    margin:0px;
+    text-align:center;
+    font-family: "Fredericka the Great";
+    color: #073f38;
+    letter-spacing: 0.4rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    margin: 1rem;
+}
+h3{
+    font-size:3.3rem;
+    margin:0px;
+    text-align:center;
+    font-family: "Fredericka the Great";
+    color: #073f38;
+    letter-spacing: 0.4rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+}
+.third-container p{
+    font-size:1.8rem;
+    color:white;
+    font-family:"Crimson Pro";
+    text-align:center;
+    letter-spacing: 0.2rem;
+    line-height: 1.99rem;
+}
+.text-mid{
+    width:95%
+}
+.secound-group span{
+    margin-left:0.3rem
+}
+h4{
+    font-size:3.5rem;
+    margin:0px;
+    text-align:center;
+    font-family: "Fredericka the Great";
+    color: #073f38;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+.first-group a{
+    color: #292f2f;
+    text-decoration:none;
+    font-size: 2.0rem;
+}
+.secound-group a{
+    color: #176e1b;
+    text-decoration:none;
+    font-size: 2.0rem;
+}
+
+
+/* Container-Form */
+
+
+input, select {
+    height:4.0rem;
+    width: 230px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size:1.6rem;
+    padding: 1rem 0px;
+}
+fieldset{
+    display:flex;
+    align-items: center;
+    border: 0;width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+}
+h5{
+    color: white;
+    font-size: 5.5rem;
+    margin:0px;
+    text-align:center;
+    font-family: "Fredericka the Great";
+    letter-spacing: 4px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.itens{
+    width:300px;
+    height:100px
+}
+input, select, textarea, button {
+    border-radius:7px;
+    box-shadow: 0px 1px 3px 1px #292f2f;
+    border:0;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 780px;
+    justify-content: space-between;
+    color:white;
+}
+fieldset div{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-four{
+    height: 65px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-five{
+    display:flex;
+    flex-direction: column;
+    height: 100.5px;
+    justify-content: space-around;
+}
+#adicionar{
+    width:120px;
+    background-color: #12a390;
+}
+.sent{
+    height: 30px;
+    background-color: #12a390;
+    width: 190px;
+}
+.container-form .wrapper{
+    background-color: rgb(58 58 58 / 60%);
+}
+.container-form{
+    margin: 0px 0px 1rem;
+}
+.reset{
+    background-color: #12a390;
+    margin-left:10px;
+    height:17px;
+    width:120px;
+}
+select{
+    width:285px
+}
+form div{
+        margin:1.5rem 0.5rem}
+        
+@media (max-width: 768px){
+
+    fieldset{
+        display:block
+        }
+    form div{
+        margin:1.5rem 0.5rem
+        }
+    .form-five{
+        height:140px
+        }
+    .form-five .products{
+        margin:1.5rem 0px;
+        }
+    .form-five label{
+        max-width:320px
+        }
+    html{
+        font-size:50%
+        }
+}
+
+@media (max-width: 678px){
+
+    .container-mid ul{
+        display:block
+        }
+    .container-mid ul li{
+        width:100%;
+        padding:0px
+        }
+    .secound-container{
+        display:block
+        }
+       
+    .left-side{
+        margin-bottom:2.0rem
+    }
+    .left-side, .right-side {
+        width:100%
+        }
+}
+
+@media (max-width: 332px){
+
+    .reset{margin:10px 0px}
+}
+
+
+

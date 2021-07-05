@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <title>CP || Seja um parceiro da marca!</title>
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <section class="container-mid">
+
+                <div class="first-container">
+
+                    <div class="wrapper"><h1>Venha fazer parte do nosso time, e alugue um item de sua casa!</h1></div>
+                
+                </div>
+
+                <div class="wrapper">
+
+                    <div class="secound-container">
+
+                        <div class="left-side">
+                            vídeo aqui
+                        </div>
+
+                        <div class="right-side">
+                            imagem aqui
+                        </div>
+
+                    </div>
+
+                    <div class="tittle-list">O que nossos clientes dizem</div>
+                    <ul>
+
+                        <li>
+
+                            <p>"Hoje eu já vejo a Comprar Pra Quê como uma forma de complementar a minha renda do mês"</p>
+
+                            <div class="img-wrapper">
+
+                                <div class="img"></div>
+
+                                <figcaption>
+
+                                    <h6>MARTHA</h6>
+                                    <p>Ladora/Parceira</p>
+                                </figcaption>
+                                
+
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <p>"Precisei de um produto (multímetro), que não tinha no site, e o pessoal da Comprar Pra Quê começou a procurar por pessoas que poderiam ter este equipamento, de forma incansável, até encontrar."</p>
+
+                            <div class="img-wrapper">
+
+                                <div class="img"></div>
+
+                                <figcaption>
+
+                                    <h6>HANNA</h6>
+                                    <p>Cliente</p>
+
+                                </figcaption>
+                                
+
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <p>"Eu estava pensando em comprar uma Parafusadeira só pra montar um móvel, quando um amigo me indicou a Comprar Pra Quê. Eu aluguei o produto e economizei uma grana pra poder investir de outra forma"</p>
+
+                            <div class="img-wrapper">
+
+                                <div class="img"></div>
+
+                                <figcaption>
+
+                                    <h6>JOAQUIM</h6>
+                                    <p>cliente</p>
+
+                                </figcaption>
+                                
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="third-container">
+
+                        <div class="text-mid">
+                            
+                            <div class="first-group">
+
+                                <h2>Leia um pouco sobre nós</h2>
+
+                                <p>Olá, somos uma empresa inovadora que utiliza economia compartilhada para fazer do mundo um lugar mais sustentável. Visamos reduzir o consumo acelerado de novos produtos, o impacto ambiental com descartes de materiais e também estamos aqui para te ajudar reduzir gastos, pagando somente pelo tempo que utilizar o produto, sem precisar comprá-lo.
+
+                            </div>
+
+                            <div class="secound-group">
+
+                                <h3>Ainda com dúvidas ? </h3>
+
+                                <p>Entre em contato com a nossos administradores pelo link do <a href="#"><i class="fab fa-whatsapp"><span>whats app!</span></i></a></p>
+
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                
+                </div>
+
+            </section>
+
+
+            <section class="container-form" id="formulario">
+
+                <div class="wrapper">   
+
+                <div class="form">
+
+                    <form action="" method="">
+
+                        <h5>Preencha com seus dados</h5>
+                        
+                        <fieldset>
+
+                            <div class="form-one">
+
+                                <label>Selecione Pessoa-Física ou Pessoa-Jurídica*</label>
+                                <select class="pessoa">
+
+                                    <option selected disabled value="" required>Selecione</option>
+                                    <option>Pessoa-Jurídica</option>
+                                    <option>Pessoa-Física</option>
+
+                                </select>
+                            
+                            
+                            </div>
+                            
+                            <div class="form-two">
+                            
+                                <label for="name">Nome:*</label>
+                                <input type="name" name="name" class="name" placeholder="Coloque aqui o seu nome!" required>
+
+                            </div>
+
+                            <div class="form-three">
+
+                                <label for="tel">Telefone:*</label>
+                                <input type="number" name="tel" class="tel" placeholder="99 99999-9999" required>
+
+                            </div>
+                            
+                        </fieldset>
+
+                        
+                        <div class="form-four">
+
+                            <label for="city">Cidade:*</label>
+                            <input type="text" name="city" class="cidade" placeholder="Ex: Timóteo - MG "required>
+
+                        </div>
+
+                        <div class="form-five">
+
+                            <label form="product">Informe os produtos que você gostaria de alugar em sua casa( quarto/ cozinha/ sala/ quartinho da bagunça):*</label>
+                            <input type="text" class="products" name="produtc" id="product" placeholder="Itens para alugar..."required>
+                            <button type="button" id="adicionar" onclick="adicionarProduto();">Adicionar</button>
+
+                        </div>
+
+                        <textarea id="lista-itens" class="itens"></textarea>
+
+                        <div>
+
+                            <button type="submit" class="sent" value="Cadastrar" >Enviar Resposta</button>
+                            <input type="reset" class="reset" value="Limpar">
+                            <p> "*" = Campos obrigatórios do formulário!</p>
+                        </div>
+
+
+
+                    </form>
+
+                </div>
+
+                </div>
+
+            </section>
+
+            <script type="text/javascript" src="form.js"></script>
+
+        </main>
+        
+    </body>
+
+</html>
